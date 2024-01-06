@@ -1,0 +1,33 @@
+{
+  "name": "rapiddns-io-scrapper",
+  "version": "0.0.1",
+  "description": "Node.js module to scrape and extract result from rapiddns.io",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --bail --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kucingbasah737/node-rapiddns-io-scrapper.git"
+  },
+  "keywords": [
+    "rapiddns.io",
+    "rapiddns",
+    "scraper",
+    "scraping",
+    "reverse-ip",
+    "reverseip"
+  ],
+  "author": "Kucing Basah 737 <kucingbasah737@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kucingbasah737/node-rapiddns-io-scrapper/issues"
+  },
+  "homepage": "https://github.com/kucingbasah737/node-rapiddns-io-scrapper#readme",
+  "devDependencies": {
+    "auto-changelog": "^2.4.0",
+    "mocha": "^10.2.0",
+    "semistandard": "^17.0.0",
+    "should": "^13.2.3"
+  }
+}
