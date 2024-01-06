@@ -4,7 +4,9 @@
   "description": "Node.js module to scrape and extract result from rapiddns.io",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha --bail --recursive test"
+    "test": "mocha --bail --recursive test",
+    "postversion": "git push && git push --tags",
+    "version": "auto-changelog -p && git add CHANGELOG.md"
   },
   "repository": {
     "type": "git",
