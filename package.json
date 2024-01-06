@@ -2,7 +2,8 @@
   "name": "rapiddns-io-scrapper",
   "version": "0.0.2",
   "description": "Node.js module to scrape and extract result from rapiddns.io",
-  "main": "lib/index.js",
+  "main": "./lib/index.js",
+  "module": "./lib/index.js",
   "scripts": {
     "test": "mocha --bail --recursive test",
     "postversion": "git push && git push --tags",
