@@ -26,7 +26,7 @@ If you put an IP address (IPv4 or IPv6), it will return hostname with same ip ad
 
 ### queryType: string, optional
 It is optional. If you want to specify it, can be one of: "subdomain" or "sameip".
-You don't need to specify it. RapidDNS will detect suitable resolvers by your "query" value.
+You don't need to specify it. RapidDNS will detect suitable resolver by your "query" value.
 
 ## Example
 ```javascript
@@ -58,7 +58,7 @@ www.example.org
 ```
 
 ## Limitation
-RapidDNS web will limit result to max 10000 items.
+RapidDNS web will limit result to max 10000 items (100 pages * 100 items per pages).
 
 ## License
 Licensed under MIT license. See in [LICENSE](./LICENSE) file.
