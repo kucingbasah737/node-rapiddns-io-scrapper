@@ -20,7 +20,10 @@
     "scraper",
     "scraping",
     "reverse-ip",
-    "reverseip"
+    "same-ip",
+    "reverseip",
+    "subdomain",
+    "subdomains"
   ],
   "author": "Kucing Basah 737 <kucingbasah737@gmail.com>",
   "license": "MIT",
