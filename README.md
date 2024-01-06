@@ -38,6 +38,25 @@ const rapiddns = require('rapiddns-io-scrapper');
 })();
 ```
 
+## CLI
+You can also call this module from CLI.
+
+Install this package as global
+```shell
+sudo npm i --global rapiddns-io-scrapper
+```
+
+Then you can call it from your shell, eg:
+```shell
+rapiddns example.org
+```
+
+It will print some lines like these:
+```
+example.org
+www.example.org
+```
+
 ## Limitation
 RapidDNS web will limit result to max 10000 items.
 
