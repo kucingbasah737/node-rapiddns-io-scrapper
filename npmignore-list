@@ -1,0 +1,6 @@
+.github/
+.vscode/
+npmignore-list
+test/
+test-data/
+CHANGELOG.md

@@ -8,7 +8,7 @@
     "test": "mocha --bail --recursive test",
     "test-watch": "mocha --watch --bail --recursive test",
     "postversion": "git push && git push --tags",
-    "version": "auto-changelog -p && git add CHANGELOG.md"
+    "version": "auto-changelog -p && git add CHANGELOG.md; cp -fv .gitignore .npmignore; echo >> .npmignore; cat npmignore-list >> .npmignore; git add .npmignore"
   },
   "repository": {
     "type": "git",
