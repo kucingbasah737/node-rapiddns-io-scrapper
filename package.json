@@ -6,6 +6,7 @@
   "module": "./lib/index.js",
   "scripts": {
     "test": "mocha --bail --recursive test",
+    "test-watch": "mocha --watch --bail --recursive test",
     "postversion": "git push && git push --tags",
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },
@@ -35,5 +36,9 @@
   },
   "engines": {
     "node": ">=16"
+  },
+  "dependencies": {
+    "@xmldom/xmldom": "^0.8.10",
+    "xpath": "^0.0.34"
   }
 }
