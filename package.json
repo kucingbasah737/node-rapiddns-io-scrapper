@@ -4,6 +4,9 @@
   "description": "Node.js module to scrape and extract result from rapiddns.io",
   "main": "./lib/index.js",
   "module": "./lib/index.js",
+  "bin": {
+    "rapiddns": "./lib/rapiddns.js"
+  },
   "scripts": {
     "test": "mocha --bail --recursive test",
     "test-watch": "mocha --watch --bail --recursive test",
