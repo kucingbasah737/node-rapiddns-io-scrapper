@@ -1,6 +1,6 @@
 {
   "name": "rapiddns-io-scrapper",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Node.js module to scrape and extract result from rapiddns.io",
   "main": "./lib/index.js",
   "module": "./lib/index.js",
